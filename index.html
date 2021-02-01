@@ -4,39 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
     <title>Семантичні теги HTML</title>
 </head>
 
 <body>
-
-    <header>
+    <header class="header">
         <div><img src="img/photo.png" title="Моє фото" alt="Моє фото" height=200px></div>
-            <h1>Коломицев Олександр Олегович</h1>
-            <h2>Звіт з дисципліни "Web-дизайн"</h2>
+            <h1 class="header__name">Коломицев Олександр Олегович</h1>
+            <h2 class="header__title">Звіт з дисципліни "Web-дизайн"</h2>
     </header>
 
-    <main>             
-        <article>
-            <h3>Про мене</h3>
-            <p>Мене звати Коломицев Олександр, я народився 11 вересня 2002 року в місті Київ.</p>
-            <p>У 2009 році я пішов у спеціалізовану школу №210 м.Київ. </p>
-            <p>У 2018 році поступив у Коледж морського та річкового флоту ДУІТ у м. Київ.</p>
-            <p>Зараз я навчаюся у Коледжі морського і річкового флоту ДУІТ за спеціальністю "Інженерія програмного забезпечення"</p>
+    <main class="content">             
+        <article class="article">
+            <h3 class="article__title">Про мене</h3>
+            <p class="article__text">Мене звати Коломицев Олександр, я народився 11 вересня 2002 року в місті Київ. 
+                У 2009 році я пішов у спеціалізовану школу №210.
+                У 2018 році поступив у Коледж морського та річкового флоту ДУІТ у м. Київ.
+                Зараз я навчаюся у Коледжі морського і річкового флоту ДУІТ за спеціальністю "Інженерія програмного забезпечення"</p>
         </article>
 
-        <article>
-            <h3>Конспект за темами:</h3>
-            <ul>
-                <li><a href="#">HTML</a></li>
-                <li><a href="#">CSS</a></li>
-                <li><a href="#">Bootstrap</a></li>
-                <li><a href="#">JavaScript</a></li>
+        <article class="article">
+            <h3 class="article__title">Конспект за темами:</h3>
+            <ul class="article__text">
+                <li><abbr title="HyperText Markup Language">HTML</abbr></li>
+                <li><abbr title="Cascading Style Sheets">CSS</abbr></li>
+                <li><abbr title="Bootstrap - вільний набір інструментів для створення сайтів і веб-додатків.">Bootstrap</abbr></li>
+                <li><abbr title="JavaScript - мультіпарадігменний мову програмування.">JavaScript</abbr></li>
             </ul>
         </article>
 
-        <article>
-            <h3>Лабораторні роботи:</h3>
-            <ol>
+        <article class="article">
+            <h3 class="article__title">Лабораторні роботи:</h3>
+            <ol class="article__text">
                 <li><a href="./ПІБ.txt">Налаштування Git та GitHub</a></li>
                 <li><a href="./01/index.html">Створення найпростішого HTML документу.</a><a href="https://github.com/Savior911/web-lessons/blob/master/01/index.html">&nbsp;Код.</a></li>
                 <li><a href="./02/index.html">Використання основних html тегів.</a><a href="https://github.com/Savior911/web-lessons/blob/master/02/index.html">&nbsp;Код.</a></li>
@@ -44,16 +46,20 @@
         </article>
     </main>
 
-    <footer>
-        <article>
-            <h3>Контакти</h3>
+    <footer class="footer">
+        <article >
+            <h3 class="footer__title">Контакти</h3>
             <ul>
-                <li><a href="+38 097 434 25 27">+380974342527</a></li>
-                <li><a href="mailto:">kolomytsev.oleksandr@kmrf.kiev.ua</a></li>
-                <li><a href="https://github.com/Savior911/web-lessons">Мій репозиторій на GitHub</a></li>
+                <li><a class="footer__text" href="+38 097 434 25 27">+380974342527</a></li>
+                <li><a class="footer__text" href="mailto:">kolomytsev.oleksandr@kmrf.kiev.ua</a></li>
+                <li><a class="footer__text" href="https://github.com/Savior911/web-lessons">Мій репозиторій на GitHub</a></li>
             </ul>
         </article>
     </footer>
-    
+
+    <p class="copyright">
+        Copyright &copy Коломицев О.О. 2021
+    </p>
+
 </body>
 </html>
