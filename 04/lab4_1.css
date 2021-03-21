@@ -1,0 +1,38 @@
+p{
+    margin: 0px 15px;
+    line-height: 40px;
+}
+
+div{
+    width: 400px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+.first_block{
+    border-top: 7px dotted green;
+    border-left: 3px double black;
+    border-bottom: 3px dashed red;
+    border-right: 7px groove blue;
+    line-height: 5px;
+}
+
+.second_block{
+    text-align: center;
+    border-bottom: 2px solid red;
+}
+
+.third_block{
+    border-left: 10px solid #00b0bd;
+    background-color: #dffdff;
+}
+
+.fourth_block{
+    box-shadow: 2px 2px 10px #bebcbc;
+    border-radius: 10px;
+}
+
+.fourth_block:hover{
+    color: white;
+    background-color: #00cedd;
+}

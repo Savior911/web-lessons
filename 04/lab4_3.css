@@ -1,0 +1,88 @@
+body{
+    background-color: #E1DDD3;
+    font-family: Roboto, sans-serif;
+}
+
+.logo_text{
+    text-align: center;
+    height: 140px;
+    margin: 35px 0px 35px 0px;
+}
+
+.logo{
+    display: inline-block;
+    height: 140px;
+    width: 140px;
+    margin-right: 50px;
+}
+
+h1{
+    font-size: 60px;
+    display: inline-block;
+    height: 140px;
+    padding: -50px;
+}
+
+nav{
+    height: 50px;
+    line-height: 50px;
+    width: 1001px;
+    background-color: #CDBB82;
+    margin: 30px 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 20px;
+    padding: 0px 85px 0px 85px;
+}
+
+li:hover{
+    color: aliceblue;
+    background-color: rgb(83, 100, 172);
+}
+
+main{
+    background-color: white;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    height: 40px;
+    font-size: 35px;
+    padding: 30px 0 0 65px;
+}
+
+.image{
+    height: 200px;
+    width: 300px;
+    margin: 0 0 0 50px;
+    display: inline-block;
+}
+
+.first_text{
+    width: 560px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 50px 0 20px;
+    text-align: justify;
+}
+
+.second_text{
+    margin: 0 50px 0 50px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+.p_last{
+    margin-bottom: 5px;
+}
+
+.p_first{
+    margin-top: 5px;
+}
