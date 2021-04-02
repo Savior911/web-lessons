@@ -13,14 +13,14 @@
     box-sizing: border-box;
 }
 
-.header__name{
+.header_name{
     font-size: 35px;
     line-height: 25px;
     font-weight: 700;
     margin-bottom: 25px;
 }
 
-.header__title{
+.header_title{
     font-size: 18px;
     line-height: 25px;
     color: #fcfafa;
@@ -44,14 +44,14 @@
     padding-top: 25px;
 }
 
-.article__title{
+.article_title{
     font-size: 30px;
     line-height: 35px;
     color: #524462; 
     margin-left: -85px;
 }
 
-.article__text{
+.article_text{
     padding-top: 55px;
     padding-bottom: 55px;
     font-size: 15px;
@@ -60,6 +60,13 @@
     text-align: justify;
     margin-bottom: 25px;
     box-sizing: border-box;
+}
+
+.text_lab{
+    color: black;
+    font-size: 15px;
+    text-align: justify;
+    padding: 0 90px 80px 35px;
 }
 
 .footer{
@@ -75,14 +82,14 @@
     box-sizing: border-box;
 }
 
-.footer__title{
+.footer_title{
     font-size: 30px;
     line-height: 35px;
     color: #ffffff; 
     margin-left: -85px;
 }
 
-.footer__text{
+.footer_text{
     font-size: 15px;
     line-height: 35px;
     color: #ffffff; 
